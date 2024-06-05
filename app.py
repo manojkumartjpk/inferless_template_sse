@@ -34,7 +34,6 @@ class InferlessPythonModel:
         thread.start()
 
         for new_text in self.streamer:
-            print(new_text, flush=True)
             output_dict = {}
             output_dict["OUT"] = new_text
             stream_output_handler.send_streamed_output(output_dict)
