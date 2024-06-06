@@ -3,6 +3,6 @@ INPUT_SCHEMA = {
         'datatype': 'STRING',
         'required': True,
         'shape': [1],
-        'example': "How to make a omellete"
+        'example': ["How to make a omellete"]
     }
 }
