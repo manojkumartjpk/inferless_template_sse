@@ -6,3 +6,4 @@ INPUT_SCHEMA = {
         'example': ["How to make a omellete"]
     }
 }
+IS_STREAMING_OUTPUT = True
