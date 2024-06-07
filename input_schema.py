@@ -1,9 +1,11 @@
 INPUT_SCHEMA = {
     "TEXT": {
-        'datatype': 'FP16',
+        'datatype': 'STRING',
         'required': True,
         'shape': [1],
         'example': ["How to make a omellete"]
     }
 }
 IS_STREAMING_OUTPUT = True
+BATCH_SIZE = 2
+BATCH_WINDOW = 50000
