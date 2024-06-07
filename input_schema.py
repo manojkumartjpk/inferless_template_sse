@@ -1,8 +1,8 @@
 INPUT_SCHEMA = {
     "TEXT": {
-        'datatype': 'STRING',
+        'datatype': 'FP16',
         'required': True,
-        'shape': [2],
+        'shape': [1],
         'example': ["How to make a omellete"]
     }
 }
