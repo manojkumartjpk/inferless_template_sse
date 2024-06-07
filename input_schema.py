@@ -2,7 +2,7 @@ INPUT_SCHEMA = {
     "TEXT": {
         'datatype': 'STRING',
         'required': True,
-        'shape': [1],
+        'shape': [2],
         'example': ["How to make a omellete"]
     }
 }
