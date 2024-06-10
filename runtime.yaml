@@ -1,0 +1,8 @@
+build:
+  cuda_version: "12.4.1"
+  system_packages:
+    - "libssl-dev"
+  python_packages:
+    - "transformers==4.41.1"
+    - "torch==2.1.2"
+    - "autoawq==0.1.8"
