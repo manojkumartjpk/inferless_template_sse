@@ -44,5 +44,5 @@ class InferlessPythonModel:
 
 
     # perform any cleanup activity here
-    def finalize(self,args):
+    def finalize(self):
         self.pipe = None
